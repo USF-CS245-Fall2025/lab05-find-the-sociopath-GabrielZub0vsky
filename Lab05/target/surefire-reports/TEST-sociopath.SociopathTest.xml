@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sociopath.SociopathTest" time="0.038" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sociopath.SociopathTest" time="0.139" tests="8" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\test-classes;C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\classes;C:\Users\HomeUser\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="java.class.path" value="C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\test-classes;C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\classes;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HomeUser\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\HomeUser\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,10 +15,10 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\HomeUser\AppData\Local\Temp\surefire9547859400330455639\surefirebooter-20251123185146625_3.jar C:\Users\HomeUser\AppData\Local\Temp\surefire9547859400330455639 2025-11-23T18-51-46_448-jvmRun1 surefire-20251123185146625_1tmp surefire_0-20251123185146625_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\HomeUser\AppData\Local\Temp\surefire13011158879813225239\surefirebooter-20251124153001843_3.jar C:\Users\HomeUser\AppData\Local\Temp\surefire13011158879813225239 2025-11-24T15-30-00_265-jvmRun1 surefire-20251124153001843_1tmp surefire_0-20251124153001843_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="sociopath.SociopathTest"/>
-    <property name="surefire.test.class.path" value="C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\test-classes;C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\classes;C:\Users\HomeUser\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;"/>
+    <property name="surefire.test.class.path" value="C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\test-classes;C:\Users\HomeUser\CS245\MyWork\All-Labs\lab05-find-the-sociopath-GabrielZub0vsky\Lab05\target\classes;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.3\junit-jupiter-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.3\junit-jupiter-api-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\HomeUser\.m2\repository\org\junit\platform\junit-platform-commons\1.9.3\junit-platform-commons-1.9.3.jar;C:\Users\HomeUser\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.3\junit-jupiter-params-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.3\junit-jupiter-engine-5.9.3.jar;C:\Users\HomeUser\.m2\repository\org\junit\platform\junit-platform-engine\1.9.3\junit-platform-engine-1.9.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\HomeUser"/>
     <property name="user.language" value="en"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\HomeUser\AppData\Local\Temp\surefire9547859400330455639\surefirebooter-20251123185146625_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\HomeUser\AppData\Local\Temp\surefire13011158879813225239\surefirebooter-20251124153001843_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.4+8-LTS-274"/>
@@ -60,10 +60,12 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
+  <testcase name="testCase3_testSociopath" classname="sociopath.SociopathTest" time="0.071"/>
+  <testcase name="testCase6_testSociopath" classname="sociopath.SociopathTest" time="0.003"/>
   <testcase name="testCase1_testSociopath" classname="sociopath.SociopathTest" time="0.004"/>
-  <testcase name="testCase6_testSociopath" classname="sociopath.SociopathTest" time="0.0"/>
-  <testcase name="testCase2_testSociopath" classname="sociopath.SociopathTest" time="0.0"/>
-  <testcase name="testCase4_testSociopath" classname="sociopath.SociopathTest" time="0.0"/>
-  <testcase name="testCase3_testSociopath" classname="sociopath.SociopathTest" time="0.0"/>
-  <testcase name="testCase5_testSociopath" classname="sociopath.SociopathTest" time="0.0"/>
+  <testcase name="testCase4_testSociopath" classname="sociopath.SociopathTest" time="0.002"/>
+  <testcase name="testCase7_testSociopath" classname="sociopath.SociopathTest" time="0.002"/>
+  <testcase name="testCase2_testSociopath" classname="sociopath.SociopathTest" time="0.001"/>
+  <testcase name="testCase5_testSociopath" classname="sociopath.SociopathTest" time="0.004"/>
+  <testcase name="testCase8_testSociopath" classname="sociopath.SociopathTest" time="0.002"/>
 </testsuite>
